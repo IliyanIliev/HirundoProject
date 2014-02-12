@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OC.Core</id>
+    <version>1.1.1</version>
+    <title>OC.Core</title>
+    <authors>frasys GmbH,  Germany</authors>
+    <owners>frasys GmbH,  Germany</owners>
+    <projectUrl>http://www.objectcomp.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AssemblyHelper
+Extracts metadata from assemblies (e.g. title, description, and version).
+
+Converter
+Helps converting from/to Base64 and from/to Hex, taking care of most of the inconveniences of handling byte[], streams, etc. in your code.
+
+EventsHelper
+Generic class for propagation of events to subscribers and handling of exceptions
+
+Object
+Implements base class with a facility for safe finalization/garbage collection for subclasses.</description>
+    <summary>Base class and helper classes.</summary>
+    <dependencies>
+      <dependency id="log4net" version="1.2" />
+    </dependencies>
+  </metadata>
+</package>

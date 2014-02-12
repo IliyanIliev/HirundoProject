@@ -1,0 +1,10 @@
+﻿<div ng-controller="registerFormController">
+    <form id="slick-login" ng-submit="processForm()">
+        <img style=" width:220px;" src="img/logo.png" />
+        <label for="username">username</label><input type="text" name="username" class="placeholder" placeholder="username" ng-model="registerFormData.Username">
+        <label for="password">password</label><input type="password" name="password" class="placeholder" placeholder="password" ng-model="registerFormData.Password">
+        <label for="email">Email</label><input type="text" name="email" class="placeholder" placeholder="email" ng-model="registerFormData.Email">
+        <input type="submit" value="Регистрирай се">
+        <a ng-click="setRoute('login')" id="register">Вход</a>
+    </form>
+</div>

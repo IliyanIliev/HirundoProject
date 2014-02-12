@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OC.Core.Crypto</id>
+    <version>1.1.1</version>
+    <title>OC.Core.Crypto</title>
+    <authors>frasys GmbH,  Germany</authors>
+    <owners>frasys GmbH,  Germany</owners>
+    <projectUrl>http://www.objectcomp.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>You need some basic cryptographic functionality to secure data from within your application, but have no clue what ASN.1 or X.509 is? You don't want your code to contain a lot of lines of code that handle byte[], streams, and other weird object types that have nothing to do with your actual business logic? 
+This library takes care about all details without messing up your code and without requiring you to be a guru in cryptography and computer science.
+
+ECSigner and ECKeyPair 
+Public key cryptography for signing using elliptic curves.
+
+RSASigner and RSAKeyPar
+Public key cryptography for signing using the RSA algorithm and RIPE160.
+
+Hash
+Secure Hashing using MD5, SHA1, SHA256, SHA512, Whirlpool, RIPEMD-160, and RIPEMD-320. 
+
++others.
+
+Please be aware that the functionality of this library is limited by design! It is aimed to hide the complexity of cryptography and it is not about flexibility and/or features! Most of our code uses the Bouncy Castle C# API (see http://www.bouncycastle.org/csharp/), so if you need flexibility and all the features in the world, please go for Bouncy Castle.</description>
+    <summary>Helper classes for basic cryptographic functions (hashing, signing, etc).</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <dependencies>
+      <dependency id="OC.Core" version="1.1" />
+      <dependency id="BouncyCastle" version="1.7" />
+    </dependencies>
+  </metadata>
+</package>
